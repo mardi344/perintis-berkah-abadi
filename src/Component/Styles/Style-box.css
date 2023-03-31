@@ -27,7 +27,8 @@
 
 .title {
   background-color: rgba(134, 134, 134, 0.486);
-  margin-top: 50px;
+  margin-top: 55px;
+  font-size: small;
 }
 
 @media screen and (min-width: 768px) {

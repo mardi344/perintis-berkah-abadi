@@ -83,4 +83,8 @@ section {
   .bg-slide {
     margin-top: 50px;
   }
+
+  .deskrip p {
+    font-size: 18px;
+  }
 }
