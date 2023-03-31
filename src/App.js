@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import BoxItem from "./Component/Box-item";
+import Footer from "./Component/Footer";
+import Slide from "./Component/Slide";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div className="logo">
+          <div className="flex-space-around">
+            <img src={`${process.env.PUBLIC_URL}/logo-rental-car.png`} />
+            <h6>PT. PERINTIS BERKAH ABADI</h6>
+          </div>
+        </div>
       </header>
+      <div className="bg-slide">
+        <Slide />
+      </div>
+      <div className="deskrip">
+        <p className="container">
+          Perintis berkah abadi adalah perushaaan jasa penyewaan mobil untuk
+          penggunaan parawisata, kegiatan instansi, kebutuhan pribadi dan
+          lainnya
+        </p>
+      </div>
+      <section>
+        <div className="container">
+          <div>
+            <BoxItem />
+          </div>
+        </div>
+      </section>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
