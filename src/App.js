@@ -3,10 +3,12 @@ import "./App.css";
 import BoxItem from "./Component/Box-item";
 import Footer from "./Component/Footer";
 import Slide from "./Component/Slide";
+import WhatsAppButton from "./Component/WhatsAppButton";
 
 function App() {
   return (
     <div className="App">
+      <WhatsAppButton />
       <header>
         <div className="logo">
           <div className="flex-space-around">
