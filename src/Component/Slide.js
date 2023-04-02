@@ -19,19 +19,19 @@ const Slide = () => {
     <Slider className="slider" {...settings}>
       <div className="slide-content">
         <img
-          src={`${process.env.PUBLIC_URL}./image-car/inova.png`}
+          src={`${process.env.PUBLIC_URL}./wisata/pantai-losar.jpg`}
           alt="slide 1"
         />
       </div>
       <div className="slide-content">
         <img
-          src={`${process.env.PUBLIC_URL}./image-car/bus.png`}
+          src={`${process.env.PUBLIC_URL}./wisata/tana-toraja.png`}
           alt="slide 2"
         />
       </div>
       <div className="slide-content">
         <img
-          src={`${process.env.PUBLIC_URL}./image-car/pajero.png`}
+          src={`${process.env.PUBLIC_URL}./wisata/pantai-bara.png`}
           alt="slide 3"
         />
       </div>

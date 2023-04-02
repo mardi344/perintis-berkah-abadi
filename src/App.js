@@ -1,5 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import About from "./Component/About";
 import BoxItem from "./Component/Box-item";
 import Footer from "./Component/Footer";
 import Slide from "./Component/Slide";
@@ -22,10 +23,14 @@ function App() {
       </div>
       <div className="deskrip">
         <p className="container">
-          Perintis berkah abadi adalah perushaaan jasa penyewaan mobil untuk
-          penggunaan parawisata, kegiatan instansi, kebutuhan pribadi dan
-          lainnya
+          RENTAL MOBIL MURAH DI MAKASSAR, AMANAH DAN TERPERCAYA
         </p>
+      </div>
+      <div className="about">
+        <div className="container">
+          <h4>ABOUT</h4>
+          <About />
+        </div>
       </div>
       <section>
         <div className="container">

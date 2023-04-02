@@ -6,7 +6,10 @@ const BoxItem = () => {
     <div className="box">
       <div className="box-item ">
         <div className="unit">
-          <img src={`${process.env.PUBLIC_URL}./image-car/inova.png`} />
+          <img
+            src={`${process.env.PUBLIC_URL}./image-car/inova.png`}
+            alt="inova"
+          />
         </div>
         <div className="title">
           <h1>Toyota Inova</h1>
@@ -14,7 +17,10 @@ const BoxItem = () => {
       </div>
       <div className="box-item">
         <div className="unit">
-          <img src={`${process.env.PUBLIC_URL}./image-car/pajero.png`} />
+          <img
+            src={`${process.env.PUBLIC_URL}./image-car/pajero.png`}
+            alt="pajero"
+          />
         </div>
         <div className="title">
           <h1>Pajero</h1>
@@ -22,7 +28,10 @@ const BoxItem = () => {
       </div>
       <div className="box-item">
         <div className="unit">
-          <img src={`${process.env.PUBLIC_URL}./image-car/fotuner.png`} />
+          <img
+            src={`${process.env.PUBLIC_URL}./image-car/fotuner.png`}
+            alt="fortuner"
+          />
         </div>
         <div className="title">
           <h1>Fortuner</h1>
@@ -30,7 +39,10 @@ const BoxItem = () => {
       </div>
       <div className="box-item">
         <div className="unit">
-          <img src={`${process.env.PUBLIC_URL}./image-car/avanza.png`} />
+          <img
+            src={`${process.env.PUBLIC_URL}./image-car/avanza.png`}
+            alt="avanza"
+          />
         </div>
         <div className="title">
           <h1>Avanza</h1>
@@ -38,7 +50,10 @@ const BoxItem = () => {
       </div>
       <div className="box-item">
         <div className="unit">
-          <img src={`${process.env.PUBLIC_URL}./image-car/hiace.png`} />
+          <img
+            src={`${process.env.PUBLIC_URL}./image-car/hiace.png`}
+            alt="hiace"
+          />
         </div>
         <div className="title">
           <h1>Hiace</h1>
@@ -46,7 +61,7 @@ const BoxItem = () => {
       </div>
       <div className="box-item">
         <div className="unit">
-          <img src={`${process.env.PUBLIC_URL}./image-car/bus.png`} />
+          <img src={`${process.env.PUBLIC_URL}./image-car/bus.png`} alt="bus" />
         </div>
         <div className="title">
           <h1>Bus</h1>
