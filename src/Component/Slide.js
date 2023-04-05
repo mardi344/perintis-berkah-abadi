@@ -22,7 +22,7 @@ const Slide = () => {
           src={`${process.env.PUBLIC_URL}./wisata/pantai-losar.jpg`}
           alt="slide 1"
           width="600"
-          height="150"
+          height="300"
         />
       </div>
       <div className="slide-content">
@@ -30,7 +30,7 @@ const Slide = () => {
           src={`${process.env.PUBLIC_URL}./wisata/tana-toraja.png`}
           alt="slide 2"
           width="600"
-          height="150"
+          height="300"
         />
       </div>
       <div className="slide-content">
@@ -38,7 +38,7 @@ const Slide = () => {
           src={`${process.env.PUBLIC_URL}./wisata/pantai-bara.png`}
           alt="slide 3"
           width="600"
-          height="150"
+          height="300"
         />
       </div>
     </Slider>
