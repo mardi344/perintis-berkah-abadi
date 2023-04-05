@@ -12,7 +12,7 @@ const BoxItem = () => {
           />
         </div>
         <div className="title">
-          <h1>Toyota Inova</h1>
+          <h1>Toyota Innova reborn</h1>
         </div>
       </div>
       <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
@@ -23,7 +23,7 @@ const BoxItem = () => {
           />
         </div>
         <div className="title">
-          <h1>Pajero</h1>
+          <h1>Mitshubishi Pajero</h1>
         </div>
       </div>
       <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
@@ -34,7 +34,7 @@ const BoxItem = () => {
           />
         </div>
         <div className="title">
-          <h1>Fortuner</h1>
+          <h1>Toyota Fortuner</h1>
         </div>
       </div>
       <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
@@ -45,7 +45,7 @@ const BoxItem = () => {
           />
         </div>
         <div className="title">
-          <h1>Avanza</h1>
+          <h1>Toyota Avanza</h1>
         </div>
       </div>
       <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
@@ -56,7 +56,7 @@ const BoxItem = () => {
           />
         </div>
         <div className="title">
-          <h1>Hiace</h1>
+          <h1>Toyota Hiace</h1>
         </div>
       </div>
       <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
@@ -64,7 +64,7 @@ const BoxItem = () => {
           <img src={`${process.env.PUBLIC_URL}./image-car/bus.png`} alt="bus" />
         </div>
         <div className="title">
-          <h1>Bus</h1>
+          <h1>Bus 30 Seat</h1>
         </div>
       </div>
     </div>
