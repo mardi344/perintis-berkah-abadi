@@ -13,7 +13,9 @@ function App() {
       <header>
         <div className="logo">
           <div className="flex-space-around">
-            <img src={`${process.env.PUBLIC_URL}/logo-rental-car.png`} />
+            <img
+              src={`${process.env.PUBLIC_URL}/logo-perintis-berkah-abadi.png`}
+            />
             <h6>PT. PERINTIS BERKAH ABADI</h6>
           </div>
         </div>

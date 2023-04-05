@@ -21,18 +21,24 @@ const Slide = () => {
         <img
           src={`${process.env.PUBLIC_URL}./wisata/pantai-losar.jpg`}
           alt="slide 1"
+          width="600"
+          height="150"
         />
       </div>
       <div className="slide-content">
         <img
           src={`${process.env.PUBLIC_URL}./wisata/tana-toraja.png`}
           alt="slide 2"
+          width="600"
+          height="150"
         />
       </div>
       <div className="slide-content">
         <img
           src={`${process.env.PUBLIC_URL}./wisata/pantai-bara.png`}
           alt="slide 3"
+          width="600"
+          height="150"
         />
       </div>
     </Slider>

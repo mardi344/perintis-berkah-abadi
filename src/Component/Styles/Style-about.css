@@ -1,4 +1,9 @@
 .btn-about {
   border: none;
-  background-color: aliceblue;
+  width: 100%;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  color: gray;
+  background-color: white;
 }

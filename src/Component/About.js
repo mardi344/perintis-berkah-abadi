@@ -9,7 +9,8 @@ const About = () => {
   };
 
   const text = `
-    PT. PERINTIS BERKAH ABADI kami mengembangkan untuk memberikan jasa transportasi terbaik. Bergelut dalam traveling adalah sebuah perusahaan yang bergerak di bidang agen biro perjalanan pariwisata. Kami melayani Sewa Mobil dan Paket Wisata lainnya. Kantor pusat kami berada di jl tamalanrea raya blok 9m22, kota makassar.
+    PT. Perintis berkah abadi adalah perusahaan jasa transportasi dan traveling untuk pariwisata. Kami melayani Sewa Mobil dan Paket Wisata lainnya Kantor pusat kami berada di jl tamalanrea raya blok 9m22, kota makassar.
+    
     • Kami berinisiatif mengembangkan dan memajukan pariwisata dan traveling yg anda inginkan, wisata yang kami berikan tidak hanya kebutuhan liburan anda, namun juga akan memberikan sebuah pengalaman menyenangkan dan memperkenalkan budaya, adat yang ada di sulawesi selatan serta kami memperkenalkan makanan khas yang ada di kota makassar, tak terlupakan kami memberikan kenyamanan, keamanan dan pelayanan terbaik untuk anda menjadi hal yang utama bagi kami 
     Visi kami adalah menjadi perusahaan yang terpercaya, amanah, aman sesuai kebutuhan perjalanan traveling anda 
     Misi kami : 

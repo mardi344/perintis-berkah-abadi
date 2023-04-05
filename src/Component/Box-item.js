@@ -4,7 +4,7 @@ import "./Styles/Style-box.css";
 const BoxItem = () => {
   return (
     <div className="box">
-      <div className="box-item ">
+      <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
         <div className="unit">
           <img
             src={`${process.env.PUBLIC_URL}./image-car/inova.png`}
@@ -15,7 +15,7 @@ const BoxItem = () => {
           <h1>Toyota Inova</h1>
         </div>
       </div>
-      <div className="box-item">
+      <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
         <div className="unit">
           <img
             src={`${process.env.PUBLIC_URL}./image-car/pajero.png`}
@@ -26,7 +26,7 @@ const BoxItem = () => {
           <h1>Pajero</h1>
         </div>
       </div>
-      <div className="box-item">
+      <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
         <div className="unit">
           <img
             src={`${process.env.PUBLIC_URL}./image-car/fotuner.png`}
@@ -37,7 +37,7 @@ const BoxItem = () => {
           <h1>Fortuner</h1>
         </div>
       </div>
-      <div className="box-item">
+      <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
         <div className="unit">
           <img
             src={`${process.env.PUBLIC_URL}./image-car/avanza.png`}
@@ -48,7 +48,7 @@ const BoxItem = () => {
           <h1>Avanza</h1>
         </div>
       </div>
-      <div className="box-item">
+      <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
         <div className="unit">
           <img
             src={`${process.env.PUBLIC_URL}./image-car/hiace.png`}
@@ -59,7 +59,7 @@ const BoxItem = () => {
           <h1>Hiace</h1>
         </div>
       </div>
-      <div className="box-item">
+      <div className="box-item" data-aos="fade-up" data-aos-duration="1000">
         <div className="unit">
           <img src={`${process.env.PUBLIC_URL}./image-car/bus.png`} alt="bus" />
         </div>
